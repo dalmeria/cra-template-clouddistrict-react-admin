@@ -9,6 +9,11 @@ To use this template, add `--template cra-template-clouddistrict-react-admin` wh
 For example:
 
 ```bash
+npx create-react-app my-app --use-npm --template cra-template-clouddistrict-react-admin
+```
+
+or
+```bash
 npm init react-app my-app --use-npm --template cra-template-clouddistrict-react-admin
 ```
 
