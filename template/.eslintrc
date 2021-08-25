@@ -1,0 +1,60 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:jsx-a11y/recommended",
+      "plugin:react-hooks/recommended",
+      "airbnb"
+    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "plugins": [],
+    "rules":{    
+      "semi": ["error", "never"],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "jsx-quotes": ["error", "prefer-single"],
+      "max-len": ["error", { "code": 120 }],
+      "react/jsx-one-expression-per-line": 0,
+      "spaced-comment": 0,
+      "import/prefer-default-export":0,
+      "comma-dangle": 0,
+      "import/no-unresolved": 0,
+      "operator-linebreak": 0,
+      "arrow-parens": 0,
+      "function-paren-newline": 0,
+      "implicit-arrow-linebreak": 0,
+      "import/no-extraneous-dependencies": 0,
+      "object-curly-newline": 0,
+      "react/jsx-props-no-spreading": 0,
+      "react/forbid-prop-types": 0,
+      "no-confusing-arrow": 0,
+      "react/jsx-curly-newline": 0,
+      "react/no-array-index-key": 0,
+      "react/jsx-wrap-multilines": 0,
+      "indent": 0,
+      "react/react-in-jsx-scope": 0,
+      "react/button-has-type": 0,
+      "jsx-a11y/click-events-have-key-events": 0,
+      "jsx-a11y/no-static-element-interactions": 0
+    }
+  }
